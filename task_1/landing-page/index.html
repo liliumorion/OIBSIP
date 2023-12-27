@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="px-24 py-2 fixed bg-transparent backdrop-blur-md w-full flex justify-between">
+  <nav class="px-10 md:px-24 py-2 fixed bg-transparent backdrop-blur-md w-full flex justify-between">
     <img src="/logo.png" height="80" width="180" />
 
     <div class="text-pink-900">
@@ -25,27 +25,102 @@
     </div>
 
   </nav>
-  <main class="h-screen bg-[url('/herosection.jpg')] bg-cover bg-center bg-no-repeat flex justify-center items-center">
-      <!--Image by macrovector on Freepik-->
-      <div class="flex flex-col justify-center items-center gap-4">
-        <h1 class="text-5xl font-medium">The VPN that just works</h1>
-        <h2 class=" text-xl font-bold">Go further with the #1 trusted leader in VPN</h2>
-        <button class="rounded-full p-2 flex justify-center items-center gap-2 border-2 border-pink-900 hover:bg-pink-900 hover:text-white"><span>
+  <main
+    class="h-screen bg-gradient-to-b from-pink-300 via-pink-200 to-white md:bg-[url('/herosection.jpg')] md:bg-cover md:bg-no-repeat flex justify-center items-center">
+    <!--Image by macrovector on Freepik-->
+    <div class="flex flex-col justify-center items-center gap-4 px-8 md:px-0">
+      <h1 class="text-5xl font-medium">The VPN that just works</h1>
+      <h2 class="text-lg md:text-xl font-bold">Go further with the #1 trusted leader in VPN</h2>
+      <button
+        class="rounded-full p-2 flex justify-center items-center gap-2 border-2 border-pink-900 hover:bg-pink-900 hover:text-white"><span>
           Get ExpressVPN
         </span> <i class="fa-solid fa-arrow-right"></i></button>
-        <h5 class="uppercase">30-day money-back guarantee</h5>
-      </div>
-  </main>
-  <!-- <section id="stats" class="h-screen bg-[url('/worldMap.svg')] bg-cover bg-center bg-no-repeat flex flex-col px-8 justify-center items-center">
-    <h2 class="font-bold">Ultra-fast server around the globe</h2>
-    <div class="flex flex-col justify-center self-end">
-      <h3 class="text-5xl font-bold">160</h3>
-      <h3>Locations</h3>
-      <h3 class="text-5xl font-bold">94</h3>
-      <h3>Countries</h3>
+      <h5 class="uppercase">30-day money-back guarantee</h5>
     </div>
-   
-  </section> -->
+  </main>
+  <section id="benefits1" class="px-16 md:px-36 flex flex-col gap-4">
+    <!--All the images used in this section belong to storyset-->
+    <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+      <img src="/img1.svg" width="400" />
+      <div class="flex flex-col gap-6 px-12">
+        <h4 class="text-3xl font-bold">Secure access,<br /> worldwide</h4>
+        <p>Connect reliably anywhere, to anywhere. Our network of high-speed services across 94 countries puts you in
+          control.</p>
+        <button class="rounded-full p-2 border-2 border-pink-900 hover:bg-pink-900 hover:text-white w-36">
+          Get ExpressVPN</button>
+      </div>
+    </div>
+
+    <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-6">
+      <div class="flex flex-col gap-6 px-12">
+        <h4 class="text-3xl font-bold">One click to a safer internet</h4>
+        <p>Going online doesn't have to mean being exposed whether you're shopping from your desk or just connecting at
+          a cafe, keep your informations more private and secure.</p>
+      </div>
+      <img src="/img2.svg" width="350" />
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+      <img src="/img3.svg" width="400" />
+      <div class="flex flex-col gap-6 px-12">
+        <h4 class="text-3xl font-bold">Use ExpressVPN on every device</h4>
+        <p>Phone, tablet, computer, router...no matter where you are or what devices you're using, a single ExpressVPN
+          subscription has got you covered.</p>
+        <div class="flex gap-2  text-xl text-pink-900">
+          <i class="bg-slate-200 p-2 hover:bg-slate-300 fa-brands fa-windows"></i>
+          <i class="bg-slate-200 p-2 hover:bg-slate-300 fa-brands fa-apple"></i>
+          <i class="bg-slate-200 p-2 hover:bg-slate-300 fa-brands fa-android"></i>
+          <i class="bg-slate-200 p-2 hover:bg-slate-300 fa-brands fa-app-store-ios"></i>
+          <i class="bg-slate-200 p-2 hover:bg-slate-300 fa-brands fa-linux"></i>
+        </div>
+        <button class="underline hover:text-pink-900 w-36">See all apps ></button>
+        <button class="rounded-full p-2 border-2 border-pink-900 hover:bg-pink-900 hover:text-white w-36">
+          Get ExpressVPN</button>
+      </div>
+    </div>
+  </section>
+  <section class="px-24 py-12 text-center">
+    <div class="flex flex-col md:flex-row justify-center gap-6">
+      <div class="flex flex-col gap-4">
+        <div>
+          <img src="/security.svg" class="rounded-full" />
+        </div>
+        <h4 class="text-2xl font-bold">Stronger data protection</h4>
+        <p>Take charge of your online privacy and security with best-in-class encryption.</p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div>
+          <img src="/world.svg" class="rounded-full" />
+        </div>
+        <h4 class="text-2xl font-bold">Works seamlessly everywhere</h4>
+        <p>Experience the internet the way it's meant to be. On the go, or on your couch.</p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div>
+          <img src="/speed.svg" class="rounded-full" />
+        </div>
+        <h4 class="text-2xl font-bold">Lightening-quick connectivity</h4>
+        <p>Our VPN network is built for speed, powered by next-generation technology.</p>
+      </div>
+    </div>
+    <button class="underline text-pink-900 w-36 "></button>
+  </section>
+  <section id="stats"
+    class="h-screen bg-[url('/earth.svg')] md:bg-[url('/worldMap.svg')] bg-cover bg-center bg-no-repeat flex flex-col px-8 py-12">
+    <h2 class="text-3xl text-center font-bold">Ultra-fast server around the globe</h2>
+    <div class="flex flex-col py-16 self-end text-end">
+      <h3 class="text-3xl md:text-5xl font-bold">160</h3>
+      <h3>Locations</h3>
+      <h3 class="text-3xl md:text-5xl font-bold">94</h3>
+      <h3>Countries</h3>
+      <h3 class="text-3xl md:text-5xl font-bold"><i class="fa-solid fa-infinity"></i></h3>
+      <h3>Unlimited<br />bandwidth</h3>
+
+    </div>
+    <div class="self-center pt-16">
+      <button class="underline hover:text-pink-900">See our full list of VPN server locations></button>
+    </div>
+  </section>
 </body>
 
 </html>
