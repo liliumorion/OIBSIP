@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter App</title>
+  </head>
+  <body>
+    <main class="h-screen w-screen flex justify-center items-center bg-gradient-to-r from-green-100 to-green-400 ">
+   <div id="app" class="p-8 flex flex-col gap-4 bg-opacity-20 backdrop-filter backdrop-blur-3xl bg-slate-300 border border-slate-500/20 rounded-3xl shadow-3xl">
+        <h1 class="text-3xl text-green-950 font-bold text-center">Temperature Converter <i class="fa-solid fa-temperature-three-quarters"></i></h1>
+        
+  <div class="flex flex-col justify-center items-center gap-4">
+    <label for="fahrenheit" name="unit" class="block text-md md:text-xl font-semibold">Fahrenheit (°F)</label>
+    <input type="number" placeholder="0" class="input input-bordered input-success" id="fahrenheit" />
+
+    <label for="celsius" name="unit" class="block text-md md:text-xl font-semibold">Celsius (°C)</label>
+    <input type="number" placeholder="0" class="input input-bordered input-success" id="celsius" />
+  </div>
+      </div> 
+    </main>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>

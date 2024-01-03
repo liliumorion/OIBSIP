@@ -14,7 +14,7 @@ The repository is structured as follows:
 
 - **Task1:** [Landing Page](https://codsoft-hadia-landing-page.vercel.app/ ) 
 - **Task2:** [Portfolio](https://codsoft-hadia-portfolio.vercel.app/ ) 
-- **Task3:** [TODO app](https://codsoft-hadia-calculator.vercel.app/ ) 
+- **Task3:** [Temperature converter](https://codsoft-hadia-calculator.vercel.app/ ) 
 
 ## Usage
 
