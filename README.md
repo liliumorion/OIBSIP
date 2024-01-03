@@ -1,4 +1,4 @@
-# OIBSIP
+# OIBSIP 🚀
 
 # Internship Task Repository
 
@@ -12,9 +12,9 @@ This repository serves as a comprehensive record of the completed Level 1 tasks 
 
 The repository is structured as follows:
 
-- **Task1:** [Landing Page](https://codsoft-hadia-landing-page.vercel.app/ ) 
-- **Task2:** [Portfolio](https://codsoft-hadia-portfolio.vercel.app/ ) 
-- **Task3:** [Temperature converter](https://codsoft-hadia-calculator.vercel.app/ ) 
+- **Task1:** [Landing Page](https://oibsip-hadia-landing-page.vercel.app/) 
+- **Task2:** [Portfolio](https://oibsip-hadia-portfolio.vercel.app/ ) 
+- **Task3:** [Temperature converter](https://oibsip-hadia-temperature-converter.vercel.app/ ) 
 
 ## Usage
 
