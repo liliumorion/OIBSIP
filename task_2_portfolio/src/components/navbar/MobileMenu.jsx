@@ -3,7 +3,7 @@ import links from "../../../lib/links"
 
 function MobileMenu() {
   return (
-    <nav>
+    <nav className="md:hidden ">
       {links.map((link)=>(
         <Link href={link.path} className="">{link.name}</Link>
       ))}

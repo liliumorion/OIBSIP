@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="bg-yellow-100 py-4">2024 | Oasis Infobyte</footer>
   )
 }
 
