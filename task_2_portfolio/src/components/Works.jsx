@@ -7,13 +7,13 @@ const Works = () => {
       id="works"
       className="min-h-screen flex flex-col gap-10"
     >
-      <div>
-      <h2 className="text-4xl md:text-6xl font-bold py-2">
+      <div className="px-44">
+      <h2 className="text-4xl md:text-6xl text-white font-bold py-2">
         Works
       </h2>
       </div>
       <div className="flex flex-col md:flex-row-reverse justify-center items-center gap-8">
-      {works.map((work) => (<div key={work.id} className="card w-[320px] h-[480px] glass">
+      {works.map((work) => (<div key={work.id} className="card w-[360px] h-[480px] glass">
   <figure><img src={work.image} alt={work.title}/></figure>
   <div className="card-body">
     <h2 className="card-title">{work.title}</h2>

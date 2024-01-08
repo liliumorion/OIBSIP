@@ -7,7 +7,8 @@ function HeroSection() {
       <div className="flex flex-col gap-4 justify-center items-center w-full">
         <div>
         <span className="uppercase">hello my name is</span>
-        <h1 className="text-4xl md:text-6xl font-bold py-2">Hadia Djadallah</h1>
+        <h1 className="text-5xl md:text-7xl font-bold py-2">Hadia <br/>Djadallah.
+        <div className="bg-red-800 h-full w-full my-2 p-1"/></h1>
         </div>
       </div>
       <figure className="md:relative w-full h-full">

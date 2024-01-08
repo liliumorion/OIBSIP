@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="bg-yellow-100 py-4">2024 | Oasis Infobyte</footer>
+    <footer className="flex gap-4 justify-center p-4 border-t border-stone-700">2024 | Oasis Infobyte</footer>
   )
 }
 

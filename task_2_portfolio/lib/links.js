@@ -8,8 +8,8 @@ const links = [
     name: "Works",
   },
   {
-    path: "/#blogs",
-    name: "Blogs",
+    path: "/#contact",
+    name: "Contact",
   },
 ];
 export default links;
