@@ -1,20 +1,30 @@
-import Link from "next/link"
-import links from "../../../lib/links"
+import Link from "next/link";
+import links from "../../../lib/links";
+import { useState } from "react";
+import { MdOutlineClose, MdOutlineMenu } from "react-icons/md";
 
 function MobileMenu() {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen((open) => !open);
+  };
   return (
-    <nav className="md:hidden p-4 flex gap-4 justify-end">
-    {links.map((link, index) => (
+    <nav className="md:hidden py-8">
+      <button className="absolute right-10 top-3 p-4 text-xl" onClick={handleOpen}>{open? <MdOutlineClose/>: <MdOutlineMenu/>}</button>
+      <div className={`${open?"h-screen w-screen flex flex-col" : "hidden"}`}>
+      {links.map((link, index) => (
         <Link
           href={link.path}
           key={index}
-          className="relative transition-all after:block after:content-[''] after:absolute after:h-[6px] after:bg-red-900 after:w-[6px] after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:mx-6 after:rounded-full"
+          className="text-4xl text-center py-4 hover:text-red-800"
         >
           {link.name}
         </Link>
       ))}
+      </div>
+    
     </nav>
-  )
+  );
 }
 
-export default MobileMenu
+export default MobileMenu;
