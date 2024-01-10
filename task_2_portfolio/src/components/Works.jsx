@@ -5,10 +5,10 @@ const Works = () => {
   return (
     <section
       id="works"
-      className="min-h-screen flex flex-col gap-10"
+      className="min-h-screen flex flex-col md:gap-10 p-8"
     >
       <div className="px-44">
-      <h2 className="text-4xl md:text-6xl text-white font-bold py-2">
+      <h2 className="text-4xl md:text-6xl text-white font-bold">
         Works
       </h2>
       </div>

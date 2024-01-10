@@ -8,11 +8,11 @@ const icons = [
   },
   {
     path:"/",
-    name: <FaLinkedin />
+    name: <FaInstagram />
   },
   {
     path:"/",
-    name: <FaInstagram />
+    name: <FaLinkedin />
   }
 ]
 
